@@ -25,6 +25,16 @@ export default function home() {
       </About>
       <About title="Experiences" className="experiences">
         <ExperienceBox
+          year_range="2021 - Present"
+          company="PT Datasintesa Teknologi Nusantara"
+          job_title="Front End Developer"
+        >
+          <ul>
+            <li> Build Front End React JS for ICMS Bakti Online </li>
+            <li> Build Front End React JS for Template DTN</li>
+          </ul>
+        </ExperienceBox>
+        <ExperienceBox
           year_range="2019 - 2021"
           company="PT Baezeni Digital Service"
           job_title="Front End and Back End Developer"
@@ -33,17 +43,6 @@ export default function home() {
             <li> Build Front End using React TS for Trimble for 1 year </li>
             <li> Build Front End React JS for Phenikaa Admin for 1 year </li>
             <li> Build BZ Roomname service using Django and Jquery AJAX </li>
-          </ul>
-        </ExperienceBox>
-        <ExperienceBox
-          year_range="2018 - 2019"
-          company="PT Hacktivate Teknologi Indonesia"
-          job_title="Instructor Fullstack Javascript"
-        >
-          <ul>
-            <li> Teaching Students </li>
-            <li> make Quiz and Exercises </li>
-            <li> Making report of Student progress</li>
           </ul>
         </ExperienceBox>
       </About>
