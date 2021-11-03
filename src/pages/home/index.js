@@ -7,7 +7,7 @@ import SkillBox from "../../components/SkillBox";
 export default function home() {
   return (
     <Content>
-      <About title="Profile">
+      <About title="Cover Letter">
         <p>
           I Am a Web Developer with 8 years experience with different
           technologies such us React , Django , and PHP Laravel and Codeigniter.
