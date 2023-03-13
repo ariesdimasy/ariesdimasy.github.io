@@ -1,0 +1,69 @@
+[
+    {
+        "skill":"PHP",
+        "range":8,
+        "unit":"year"
+    },{
+        "skill":"Codeigniter",
+        "range":7,
+        "unit":"year"
+    },{
+        "skill":"Laravel",
+        "range":3,
+        "unit":"year"
+    },{
+        "skill":"Lumen",
+        "range":1,
+        "unit":"year"
+    },{
+        "skill":"Javascript",
+        "range":9,
+        "unit":"year"
+    }, { 
+        "skill":"React.js",
+        "range":5,
+        "unit":"year"
+    }, { 
+        "skill":"Vue.js",
+        "range":1,
+        "unit":"year"
+    }, { 
+        "skill":"Next.js",
+        "range":1,
+        "unit":"year"
+    }, { 
+        "skill":"Next.js",
+        "range":1,
+        "unit":"year"
+    }, 
+    { 
+        "skill":"React Native",
+        "range":1,
+        "unit":"year"
+    }, 
+    { 
+        "skill":"Typescript",
+        "range":1,
+        "unit":"year"
+    },{ 
+        "skill":"Golang",
+        "range":0,
+        "unit":"year"
+    },{
+        "skill":"Node.js ",
+        "range":2,
+        "unit":"year"
+    },{
+        "skill":"Express.js ",
+        "range":2,
+        "unit":"year"
+    }, { 
+        "skill":"Flutter",
+        "range":0,
+        "unit":"year"
+    }, {
+        "skill":"Dart",
+        "range":0,
+        "unit":"year"
+    }
+]
