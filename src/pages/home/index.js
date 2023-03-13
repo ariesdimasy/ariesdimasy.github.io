@@ -1,18 +1,27 @@
-// import React from "react"
+import React, { useState, useEffect } from "react"
 import Content from "../../components/layout/Content";
 import About from "../../components/About";
 import ExperienceBox from "../../components/ExperienceBox";
 import SkillBox from "../../components/SkillBox";
 
-export default function home() {
+import dataExperiences from "./../../data/experiences.json"
+
+export default function Home() {
+
+  const [experiences, setExperiences] = useState([])
+
+  useEffect(() => {
+    setExperiences(dataExperiences)
+  },[])
+
   return (
     <Content>
       <About title="Cover Letter">
         <p>
-          I Am a Web Developer with 8 years experience with different
-          technologies such us React , Django , and PHP Laravel and Codeigniter.
+          I Am a Web Developer with 9 years experience with different
+          technologies such us React ,Express Js , and PHP Laravel and Codeigniter.
           Besides being a web developer, I am also an Instructor in my field for
-          2 years as Fullstack Javascript instructure and Web Development.
+          3 years as Fullstack Javascript instructure and Web Development.
         </p>
 
         <p>
@@ -24,27 +33,17 @@ export default function home() {
         </p>
       </About>
       <About title="Experiences" className="experiences">
-        <ExperienceBox
-          year_range="2021 - Present"
-          company="PT Datasintesa Teknologi Nusantara"
-          job_title="Front End Developer"
+        {experiences?.slice(0,3)?.map(item => (<ExperienceBox
+          year_range={item.range}
+          company={item.company}
+          job_title={item.job_title}
         >
           <ul>
-            <li> Build Front End React JS for ICMS Bakti Online </li>
-            <li> Build Front End React JS for Template DTN</li>
+            { item.job_desk.map(item2 => (<li> {item2} </li>))}
           </ul>
-        </ExperienceBox>
-        <ExperienceBox
-          year_range="2019 - 2021"
-          company="PT Baezeni Digital Service"
-          job_title="Front End and Back End Developer"
-        >
-          <ul>
-            <li> Build Front End using React TS for Trimble for 1 year </li>
-            <li> Build Front End React JS for Phenikaa Admin for 1 year </li>
-            <li> Build BZ Roomname service using Django and Jquery AJAX </li>
-          </ul>
-        </ExperienceBox>
+        </ExperienceBox>)
+        )}
+        
       </About>
       <About title="Professional Skills" className="skills">
         <div style={{ fontSize: 12, marginTop: -10 }}>

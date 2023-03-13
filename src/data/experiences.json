@@ -1,0 +1,51 @@
+[
+    { 
+        "range":"October 2022 - March 2023",
+        "company":"PT Medika Komunika Teknologi",
+        "job_title":"Front End Web Developer II",
+        "job_desk":[
+            "Contributed adding features to klikdokter.com",
+            "Contributed on TPA insurance and fixing bug on hallobumil.com",
+            "Contributed on Backoffice Marketing klikstore",
+            "Contributed on Kalcare"
+        ]
+    },
+    { 
+        "range":"Juli 2021 - Juni 2022",
+        "company":"PT Datasintesa Teknologi Indonesia",
+        "job_title":"Front End Developer",
+        "job_desk":[
+            "Build Front End React JS for ICMS Bakti Online",
+            "Build Front End React JS for Template DTN"
+        ]
+    }, { 
+        "range":"Juli 2019 - Juni 2021",
+        "company":"PT Baezeni Digital Service",
+        "job_title":"Web Develeloper",
+        "job_desk":[
+            "Build Front End React JS for ICMS Bakti Online",
+            "Build Front End React JS for Phenikaa Admin for 1 year",
+            "Build BZ Roomname service using Django and Jquery AJAX"
+        ]
+    }, { 
+        "range":"April 2018 - April 2019",
+        "company":"Docking.id",
+        "job_title":" Freelance Front End Developer and Backend Developer",
+        "job_desk":[
+            "Maintenance Front End with Nuxt JS",
+            "Maintenance Backend with Laravel 4.2"
+
+        ]
+    }, { 
+        "range":"April 2018 - April 2019",
+        "company":"PT Hacktiv8 Teknologi Indonesia ( hacktiv8.com )",
+        "job_title":"Fullstack Javascript Instructor",
+        "job_desk":[
+            "Teaching students how to code, the logic and the concept",
+            "Make Exercise and Live Code Test every week",
+            "Improve our Syllabus every year",
+            "Assist our student to fill the assignment every day"
+
+        ]
+    }
+]
